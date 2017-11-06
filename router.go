@@ -24,7 +24,7 @@ import (
 )
 
 func hason(w http.ResponseWriter, r *http.Request, _ httprouter.Params) {
-    fnt.Fprint(w, "Welcome! Keep moving, Here we go\n")
+    fmt.Fprint(w, "Welcome! Keep moving, Here we go\n")
 }
 func main() {
     router := httprouter.New()
