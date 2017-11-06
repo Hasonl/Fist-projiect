@@ -32,4 +32,6 @@ func main() {
     log.Fatal(http.ListenAndServe(":8080", router))
 }
 
+http://localhost:8080
+
 PS:  根据路由请求8080端口的hason内容
