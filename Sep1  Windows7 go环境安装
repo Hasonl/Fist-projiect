@@ -12,4 +12,13 @@ GOPATH 和 GOROOT 【GOPATH表示工作目录，GOROOT表示golang安装目录�
               
     在安装sublime Text时，记得安装 Package control(ctrl+shit+p),然后通过 Package control 来 install Package。
     
+    Sublime Text需要修改的环境变量   
+    Preferences--->Package setting--->GoSublime--->GoSublime.sublime-settings
+   
+    {
+    "env": {
+        "GOPATH": "D:/hason-mygo",
+        "GOROOT": "D:/golang"
+    }
+}
                             
