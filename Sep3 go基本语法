@@ -1,0 +1,41 @@
+Such as:
+
+package main
+import (
+    "fmt"
+)
+
+func main () {
+    ftm.Println("What's up ?")
+}
+
+ps:  package main 表示应用main包，然后导入 ”fmt“包，根据约束【一个可执行程序有且只有一个“main”包】
+     如果import 很多包，但是没有调用，那么go run 时会提示不要导入不调用的包。
+
+
+go 语法中，通常用 //双斜杠表示代码单行注释       /**/ 表示多行内容注释 
+           var 表示全局变量
+           const 表示常量
+           type 表示一般类型
+           
+   type (
+          hason   string
+   )
+   
+   
+   
+   
+ 例如简单的 var 和type
+ package main
+ import "fmt"
+ 
+type (
+    hason   string
+)
+func main() {
+    var b hason
+    b = "My i help you ? "
+    fmt.Println(b)
+}
+
+
