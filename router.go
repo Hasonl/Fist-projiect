@@ -11,7 +11,7 @@ Attension,Please:
 Shell:
         mkdir -p hason/src                
         cd hason
-        vim 8080.go
+        vim router.go
 
 Go:
 
