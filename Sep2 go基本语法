@@ -34,7 +34,7 @@ type (
 )
 func main() {
     var b hason
-    b = "My i help you ? "
+    b = "May i help you ? "
     fmt.Println(b)
 }
 
